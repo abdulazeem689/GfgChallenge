@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B50D8B427A12645003F68ED /* TopFeedTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50D8B227A12644003F68ED /* TopFeedTVCell.swift */; };
+		3B50D8B527A12645003F68ED /* TopFeedTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B50D8B327A12645003F68ED /* TopFeedTVCell.xib */; };
+		3B50D8B727A13104003F68ED /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50D8B627A13104003F68ED /* Helpers.swift */; };
 		3BDB037C27A059D800D9A1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB037B27A059D800D9A1E2 /* AppDelegate.swift */; };
 		3BDB037E27A059D800D9A1E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB037D27A059D800D9A1E2 /* SceneDelegate.swift */; };
-		3BDB038027A059D800D9A1E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB037F27A059D800D9A1E2 /* ViewController.swift */; };
+		3BDB038027A059D800D9A1E2 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB037F27A059D800D9A1E2 /* FeedVC.swift */; };
 		3BDB038327A059D800D9A1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB038127A059D800D9A1E2 /* Main.storyboard */; };
 		3BDB038527A059DA00D9A1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB038427A059DA00D9A1E2 /* Assets.xcassets */; };
 		3BDB038827A059DA00D9A1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB038627A059DA00D9A1E2 /* LaunchScreen.storyboard */; };
+		3BDB039727A05C2D00D9A1E2 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB039627A05C2D00D9A1E2 /* FeedModel.swift */; };
+		3BDB039A27A05E5300D9A1E2 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB039927A05E5300D9A1E2 /* Webservice.swift */; };
+		3BDB039D27A062C400D9A1E2 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB039C27A062C400D9A1E2 /* ApiConstants.swift */; };
+		3BDB039F27A06D1300D9A1E2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB039E27A06D1300D9A1E2 /* DataManager.swift */; };
+		3BDB03A127A06DD700D9A1E2 /* EndpointEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB03A027A06DD700D9A1E2 /* EndpointEnum.swift */; };
+		3BF597B327A07DDE00EA72FA /* FeedTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF597B127A07DDE00EA72FA /* FeedTVCell.swift */; };
+		3BF597B427A07DDE00EA72FA /* FeedTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF597B227A07DDE00EA72FA /* FeedTVCell.xib */; };
+		3BF597B627A08CBC00EA72FA /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF597B527A08CBC00EA72FA /* DateExtension.swift */; };
+		3BF597B827A0914200EA72FA /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF597B727A0914200EA72FA /* ImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B50D8B227A12644003F68ED /* TopFeedTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFeedTVCell.swift; sourceTree = "<group>"; };
+		3B50D8B327A12645003F68ED /* TopFeedTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopFeedTVCell.xib; sourceTree = "<group>"; };
+		3B50D8B627A13104003F68ED /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		3BDB037827A059D800D9A1E2 /* GfgChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GfgChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDB037B27A059D800D9A1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BDB037D27A059D800D9A1E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BDB037F27A059D800D9A1E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BDB037F27A059D800D9A1E2 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		3BDB038227A059D800D9A1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BDB038427A059DA00D9A1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDB038727A059DA00D9A1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDB038927A059DA00D9A1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDB039627A05C2D00D9A1E2 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		3BDB039927A05E5300D9A1E2 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		3BDB039C27A062C400D9A1E2 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		3BDB039E27A06D1300D9A1E2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3BDB03A027A06DD700D9A1E2 /* EndpointEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointEnum.swift; sourceTree = "<group>"; };
+		3BF597B127A07DDE00EA72FA /* FeedTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTVCell.swift; sourceTree = "<group>"; };
+		3BF597B227A07DDE00EA72FA /* FeedTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTVCell.xib; sourceTree = "<group>"; };
+		3BF597B527A08CBC00EA72FA /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		3BF597B727A0914200EA72FA /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,91 @@
 		3BDB037A27A059D800D9A1E2 /* GfgChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				3BDB037B27A059D800D9A1E2 /* AppDelegate.swift */,
-				3BDB037D27A059D800D9A1E2 /* SceneDelegate.swift */,
-				3BDB037F27A059D800D9A1E2 /* ViewController.swift */,
-				3BDB038127A059D800D9A1E2 /* Main.storyboard */,
+				3BDB039527A05B8B00D9A1E2 /* Classes */,
+				3BDB039327A05AFA00D9A1E2 /* Storyboard */,
 				3BDB038427A059DA00D9A1E2 /* Assets.xcassets */,
-				3BDB038627A059DA00D9A1E2 /* LaunchScreen.storyboard */,
 				3BDB038927A059DA00D9A1E2 /* Info.plist */,
 			);
 			path = GfgChallenge;
+			sourceTree = "<group>";
+		};
+		3BDB038F27A05A7500D9A1E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB039627A05C2D00D9A1E2 /* FeedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BDB039027A05A8300D9A1E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BF597B127A07DDE00EA72FA /* FeedTVCell.swift */,
+				3BF597B227A07DDE00EA72FA /* FeedTVCell.xib */,
+				3B50D8B227A12644003F68ED /* TopFeedTVCell.swift */,
+				3B50D8B327A12645003F68ED /* TopFeedTVCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BDB039127A05A8D00D9A1E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB037F27A059D800D9A1E2 /* FeedVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BDB039227A05AD500D9A1E2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB037B27A059D800D9A1E2 /* AppDelegate.swift */,
+				3BDB037D27A059D800D9A1E2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3BDB039327A05AFA00D9A1E2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB038627A059DA00D9A1E2 /* LaunchScreen.storyboard */,
+				3BDB038127A059D800D9A1E2 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3BDB039527A05B8B00D9A1E2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB039227A05AD500D9A1E2 /* App */,
+				3BDB038F27A05A7500D9A1E2 /* Model */,
+				3BDB039027A05A8300D9A1E2 /* View */,
+				3BDB039127A05A8D00D9A1E2 /* Controller */,
+				3BDB039827A05E3400D9A1E2 /* Networking */,
+				3BDB039B27A062AC00D9A1E2 /* Utility */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3BDB039827A05E3400D9A1E2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB039927A05E5300D9A1E2 /* Webservice.swift */,
+				3BF597B727A0914200EA72FA /* ImageService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3BDB039B27A062AC00D9A1E2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB039E27A06D1300D9A1E2 /* DataManager.swift */,
+				3BDB03A027A06DD700D9A1E2 /* EndpointEnum.swift */,
+				3BDB039C27A062C400D9A1E2 /* ApiConstants.swift */,
+				3BF597B527A08CBC00EA72FA /* DateExtension.swift */,
+				3B50D8B627A13104003F68ED /* Helpers.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BDB038827A059DA00D9A1E2 /* LaunchScreen.storyboard in Resources */,
+				3BF597B427A07DDE00EA72FA /* FeedTVCell.xib in Resources */,
 				3BDB038527A059DA00D9A1E2 /* Assets.xcassets in Resources */,
+				3B50D8B527A12645003F68ED /* TopFeedTVCell.xib in Resources */,
 				3BDB038327A059D800D9A1E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +240,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDB038027A059D800D9A1E2 /* ViewController.swift in Sources */,
+				3BDB038027A059D800D9A1E2 /* FeedVC.swift in Sources */,
+				3BF597B627A08CBC00EA72FA /* DateExtension.swift in Sources */,
 				3BDB037C27A059D800D9A1E2 /* AppDelegate.swift in Sources */,
+				3BDB039D27A062C400D9A1E2 /* ApiConstants.swift in Sources */,
+				3BDB03A127A06DD700D9A1E2 /* EndpointEnum.swift in Sources */,
+				3BDB039F27A06D1300D9A1E2 /* DataManager.swift in Sources */,
 				3BDB037E27A059D800D9A1E2 /* SceneDelegate.swift in Sources */,
+				3BF597B327A07DDE00EA72FA /* FeedTVCell.swift in Sources */,
+				3BF597B827A0914200EA72FA /* ImageService.swift in Sources */,
+				3BDB039A27A05E5300D9A1E2 /* Webservice.swift in Sources */,
+				3B50D8B727A13104003F68ED /* Helpers.swift in Sources */,
+				3BDB039727A05C2D00D9A1E2 /* FeedModel.swift in Sources */,
+				3B50D8B427A12645003F68ED /* TopFeedTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +406,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +434,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
